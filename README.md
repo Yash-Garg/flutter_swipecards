@@ -1,13 +1,10 @@
 # flutter_swipecards
 
-[![Pub](https://img.shields.io/pub/v/flutter_swipecards.svg?color=%233CB371)](https://pub.dartlang.org/packages/flutter_swipecards)
-[![Closed](https://img.shields.io/github/issues-closed-raw/ShaunRain/flutter_swipecards.svg?color=%23FF69B4)](https://github.com/ShaunRain/flutter_swipecards/issues?q=is%3Aissue+is%3Aclosed)
-
 Tinder/TanTan Card Widget.
 
 ## Screenshots
 
-![screenshot](./assets/example_tindercard.gif)
+![screenshot](./assets/example_swipecards.gif)
 
 ## Getting Started
 
