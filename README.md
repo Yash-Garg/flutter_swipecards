@@ -1,7 +1,7 @@
-# flutter_tindercard
+# flutter_swipecards
 
-[![Pub](https://img.shields.io/pub/v/flutter_tindercard.svg?color=%233CB371)](https://pub.dartlang.org/packages/flutter_tindercard)
-[![Closed](https://img.shields.io/github/issues-closed-raw/ShaunRain/flutter_tindercard.svg?color=%23FF69B4)](https://github.com/ShaunRain/flutter_tindercard/issues?q=is%3Aissue+is%3Aclosed)
+[![Pub](https://img.shields.io/pub/v/flutter_swipecards.svg?color=%233CB371)](https://pub.dartlang.org/packages/flutter_swipecards)
+[![Closed](https://img.shields.io/github/issues-closed-raw/ShaunRain/flutter_swipecards.svg?color=%23FF69B4)](https://github.com/ShaunRain/flutter_swipecards/issues?q=is%3Aissue+is%3Aclosed)
 
 Tinder/TanTan Card Widget.
 
@@ -11,9 +11,9 @@ Tinder/TanTan Card Widget.
 
 ## Getting Started
 
-1. Depend on it by adding this to your pubspec.yaml file: ```flutter_tindercard: ^x.x.x```
+1. Depend on it by adding this to your pubspec.yaml file: `flutter_swipecards: ^x.x.x`
 
-2. Import it: ```import 'package:flutter_tindercard.dart'```
+2. Import it: `import 'package:flutter_swipecards.dart'`
 
 3. Add TinderSwapCard in your widget layout and write the single card layout builder you need, then you get a Tinder(探探) like swap card widget!
 
@@ -24,7 +24,9 @@ Tinder/TanTan Card Widget.
 6. Use `CardDragUpdateCallback` to get swiping card's detail.
 
 ## Example
+
 [See Here](./example/example/lib)
 
 ## Async Example
+
 [See Here](./example/async_data/lib)

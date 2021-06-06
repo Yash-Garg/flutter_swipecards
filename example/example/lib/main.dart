@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_tindercard/flutter_tindercard.dart';
+import 'package:flutter_swipecards/flutter_swipecards.dart';
 
 void main() => runApp(MyApp());
 
@@ -25,23 +25,23 @@ class ExampleHomePage extends StatefulWidget {
 class _ExampleHomePageState extends State<ExampleHomePage>
     with TickerProviderStateMixin {
   List<String> welcomeImages = [
-    "assets/welcome0.png",
-    "assets/welcome1.png",
-    "assets/welcome2.png",
-    "assets/welcome2.png",
-    "assets/welcome1.png",
-    "assets/welcome1.png"
+    'assets/welcome0.png',
+    'assets/welcome1.png',
+    'assets/welcome2.png',
+    'assets/welcome2.png',
+    'assets/welcome1.png',
+    'assets/welcome1.png'
   ];
 
   @override
   Widget build(BuildContext context) {
-    CardController controller; //Use this to trigger swap.
+//Use this to trigger swap.
 
-    return new Scaffold(
-      body: new Center(
+    return Scaffold(
+      body: Center(
         child: Container(
           height: MediaQuery.of(context).size.height * 0.6,
-          child: new TinderSwapCard(
+          child: TinderSwapCard(
             swipeUp: true,
             swipeDown: true,
             orientation: AmassOrientation.bottom,
@@ -55,7 +55,6 @@ class _ExampleHomePageState extends State<ExampleHomePage>
             cardBuilder: (context, index) => Card(
               child: Image.asset('${welcomeImages[index]}'),
             ),
-            cardController: controller = CardController(),
             swipeUpdateCallback: (DragUpdateDetails details, Alignment align) {
               /// Get swiping card's alignment
               if (align.x < 0) {
